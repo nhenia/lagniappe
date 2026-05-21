@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagniappe Arcana</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- EB Garamond for body copy (mystical serif), Permanent Marker for the bold draw button -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background image -->
+    <div class="bg-layer"></div>
+
+    <!-- Intro State: Just the Draw button -->
+    <div id="intro-screen" class="screen active">
+        <button id="draw-btn">PULL A CARD</button>
+    </div>
+
+    <!-- Revealed State: Overlay with scrollable reading -->
+    <div id="reading-screen" class="screen">
+        <div class="reading-container">
+            <div class="card-header">
+                <div class="card-number" id="card-number">0</div>
+                <h1 class="card-title" id="card-title">THE REVELER</h1>
+                <h2 class="card-subtitle" id="card-subtitle">The Fool</h2>
+                <div class="card-keywords" id="card-keywords">Liberation, Incognito, Reinvention, Instinct, Thresholds</div>
+            </div>
+
+            <div class="card-section">
+                <h3>Visual / Historical Framing</h3>
+                <p id="card-framing">...</p>
+            </div>
+
+            <div class="card-section">
+                <h3>Upright</h3>
+                <p id="card-upright">...</p>
+            </div>
+
+            <div class="card-section">
+                <h3>Reversed</h3>
+                <p id="card-reversed">...</p>
+            </div>
+
+            <div class="card-section">
+                <h3>Domain Interpretations</h3>
+                <ul id="card-domains">
+                    <!-- domains populated via js -->
+                </ul>
+            </div>
+
+            <div class="card-section">
+                <h3>The Inquiry</h3>
+                <p id="card-inquiry" class="italic-text">...</p>
+            </div>
+
+            <div class="card-section">
+                <h3>The Environmental Tell</h3>
+                <p id="card-tell" class="italic-text">...</p>
+            </div>
+
+            <!-- Footer / Contact Info -->
+            <div class="contact-footer">
+                <p>Instagram: <a href="https://instagram.com/_nh_en" target="_blank">@_nh_en</a></p>
+                <p>Email: <a href="mailto:nheniappe@gmail.com">nheniappe@gmail.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="cards.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
