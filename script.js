@@ -34,6 +34,9 @@ document.addEventListener("DOMContentLoaded", () => {
         // Prevent double clicks
         drawBtn.disabled = true;
 
+        // Add animation class
+        drawBtn.classList.add('draw-animating');
+
         // Select random card
         const randomIndex = Math.floor(Math.random() * cards.length);
 
