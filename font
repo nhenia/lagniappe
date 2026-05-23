@@ -1,0 +1,73 @@
+/* ==========================================
+   1. GLOBAL FRAMEWORK & BODY COPY (Source Sans 3)
+   ========================================== */
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #e4e4e7;
+    background-color: #09090b;
+    margin: 0;
+    padding: 0;
+    letter-spacing: -0.005em;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Base Headings Setup */
+h1, h2, h3 {
+    margin-top: 0;
+    font-weight: normal; /* Let the custom font geometry handle the weight */
+    color: #ffffff;
+}
+
+/* Navigation, Labels, and UI Accent Text */
+.ui-accent {
+    font-family: 'Source Sans 3', sans-serif;
+    font-weight: 600; /* Semi-bold for high visibility */
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em; /* Slightly tracked out for UI balance */
+    color: #a1a1aa;
+}
+
+/* ==========================================
+   2. DISPLAY CLASSES (Your 3 Selected Fonts)
+   ========================================== */
+
+/* Font A: Vector-Digital Brutalism */
+.font-avara {
+    font-family: 'Avara', serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+}
+
+/* Font B: Ornate Dark Fantasy */
+.font-almendra {
+    font-family: 'Almendra', serif;
+    font-size: 3.8rem;
+    line-height: 1.05;
+    letter-spacing: -0.03em; /* Looks incredible when tightly packed */
+}
+
+/* Font C: Matrix Textile Pixels */
+.font-jacquard {
+    font-family: 'Jacquard 24', display;
+    font-size: 4.5rem;
+    line-height: 0.95;
+    letter-spacing: 0;
+}
+
+/* ==========================================
+   3. UTILITY STRUCTURAL CONTAINER
+   ========================================== */
+.section-wrapper {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 0 20px;
+}
+p {
+    color: #a1a1aa;
+    margin-bottom: 24px;
+}
